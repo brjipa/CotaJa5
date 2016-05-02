@@ -1,0 +1,45 @@
+.imgcat{ height: 38px; align-self: center;}
+
+.btncat{
+    align-content: center;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.btncat li{
+    width: 40px;
+    margin: 33px;
+    margin-top: 0px;
+    align-content: center;
+}
+
+.btncat a{
+    height: 50px;
+    line-height: 14px;
+    font-size: 9pt;
+    color: #000000;
+}
+
+.btncat img{margin-bottom: 5px;}
+
+#menu a{padding-left: 10px;}
+
+#search {background-color: #FFFFFF;}
+
+#lupa {margin-top: 22px;}
+
+.conteudo {background-color: #FFFFFF; border-radius: 5px; margin-top: -100px; box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.2); padding: 20px;}
+
+.rodape{margin-top: 50px; /*height: 100px;*/}
+
+.foto{background-color: #dbdbdb; width: 347px; height: 347px;}
+
+.foto-pesquisa{background-color: #dbdbdb; width: 224px;  height: 172px; }
+
+.btn-painel{height: 28px; margin-top: 12px;}
+
+.input-field .prefix.active {
+    color: #0D47A1;
+}
+
+.cont-pesquisa {background-color: #FFFFFF; border-radius: 5px; box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.2); padding: 20px;}
