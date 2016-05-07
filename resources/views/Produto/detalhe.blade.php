@@ -6,7 +6,7 @@
             Foto
         </div>
         <div class="col l7">
-            <h4>Nome do produto</h4>
+            <h4>{{$produto->nome_produto}}</h4>
 
             <table class="table striped">
                 <thead>

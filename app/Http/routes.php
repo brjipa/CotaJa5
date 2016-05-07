@@ -31,6 +31,9 @@ Route::post('/usuario/cadastro', function(){
     return view('usuario.cadastro');
 });
 
+Route::resource('produto', 'ProdutoController');
+
+
 Route::auth();
 
 Route::get('/home', 'HomeController@index');

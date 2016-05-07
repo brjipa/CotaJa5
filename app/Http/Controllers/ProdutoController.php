@@ -10,8 +10,9 @@ class ProdutoController extends Controller
 {
     public function show( $id)
     {
-        $produto = EventoModel::findOrFail($id);
-        return view('produto.detalhe', array('produto' => $produto));
+        $produto = ProdutoModel::findOrFail($id);
+        return view('Produto.detalhe', array('produto' => $produto));
+        
 
     }
 }
