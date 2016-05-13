@@ -22,7 +22,7 @@
                 </thead>
                 <tbody>
                     <td>
-                       {{$produto->nome_marca}}
+                        {{//$produto->nome_marca}}
                     </td>
                     <td>
                         1

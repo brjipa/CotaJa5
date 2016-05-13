@@ -17,14 +17,14 @@ class ProdutoController extends Controller
 {
     public function index()
     {
-        $produto = ProdutoModel::all($cod_produto);
+        $produto = \App\ProdutoModel::all($id);
         return view('produto.detalhe', array('produto' => $produto));
 
     }
 
-    public function show($cod_produto)
+    public function show($id)
     {
-        $produto = \App\ProdutoModel::findOrFail($cod_produto);
+        $produto = \App\ProdutoModel::findOrFail($id);
         return view('produto.detalhe', array('produto' => $produto));
 
         /*$marca = \App\MarcaModel::findOfFail($cod_marca);
